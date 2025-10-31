@@ -1,4 +1,4 @@
-/*
+/* https://github.com/theta148/Lab08-MihirPatel
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
@@ -27,11 +27,9 @@ public class Lab08MihirPatel extends Application{
     
     @Override
     public void start(Stage primaryStage) throws IOException {
-        
-            Parent root = FXMLLoader.load(getClass().getResource("Lab08FXML.fxml"));
-            Scene scene = new Scene(root);
-            primaryStage.setScene(scene);
-            primaryStage.show();
-        
+        Parent root = FXMLLoader.load(getClass().getResource("Lab08FXML.fxml"));
+        Scene scene = new Scene(root);
+        primaryStage.setScene(scene);
+        primaryStage.show();
     }
 }
