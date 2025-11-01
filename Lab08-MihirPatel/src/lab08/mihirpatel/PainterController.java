@@ -71,7 +71,7 @@ public class PainterController {
 
     @FXML
     void undoButtonPressed(ActionEvent e) {
-        drawingAreaPane.getChildren();
+        drawingAreaPane.getChildren().removeLast();
     }
     
     private enum PenSize {
