@@ -4,6 +4,7 @@
  */
 package lab08.mihirpatel;
 
+
 import java.io.IOException;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -22,14 +23,16 @@ public class Lab08MihirPatel extends Application{
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        launch(args);
+        launch();
     }
     
     @Override
-    public void start(Stage primaryStage) throws IOException {
+    public void start(Stage primaryStage) throws IOException{
+    
         Parent root = FXMLLoader.load(getClass().getResource("Lab08FXML.fxml"));
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.show();
+          
     }
 }
